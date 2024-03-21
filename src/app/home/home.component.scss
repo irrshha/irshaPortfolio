@@ -1,0 +1,49 @@
+html {
+    overflow: hidden !important;
+    body {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+    }
+}
+.ft-hidden{
+    display: none !important;    
+    }
+
+.banner-area {
+    background-image: url('../../assets/images/banner/coding.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+}
+
+.banner {
+    padding-top: 80px;
+    padding-bottom: 70px;
+    height: 85vh;
+    h1 {
+        font-weight: 800;
+        margin-top: 20px;
+        letter-spacing: 1px;
+    }
+    p {
+        font-size: 1rem;
+    }
+    span {
+        color: #ffb950;
+    }
+}
+
+.exp-des {
+    img {
+        height: 40px;
+    }
+}
+.btn-dark {
+    background-color: #ffb950 !important;
+    color: #12122a;
+    font-weight: 800;
+    border-radius: 25px;
+}
+
+

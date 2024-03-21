@@ -1,0 +1,168 @@
+
+
+h1,h2,h3,h4,h5,h6{
+    text-transform: uppercase;
+    line-height: 0.9;
+  }
+  p{
+    font-family: 'Montserrat' !important;}
+  .header{
+    padding: 2rem;
+  
+    h1{
+      margin-bottom: 3rem;
+      font-size: 10vw;
+      color: #FFF;
+    }
+    
+    p{
+      font-family: 'Montserrat' !important;
+      padding-bottom: 2rem;
+      font-weight: 200;
+      font-size: 1.5rem;
+      color: #FFF;
+    }
+    
+    hr{ transform-origin: top left; }
+    
+    .heading-line-wrapper{ overflow: hidden; }
+  }
+  .btn-dark {
+    border: 2px solid #feb84f !important;
+    color: #f6b24d;
+    font-weight: 800;
+    border-radius: 25px;
+    background: none !important;
+  }
+
+// Adaptive is not attached.
+// Font Awesome icons is not attached.
+// Place tool is not attached.
+// This is only simpliest showcase of how this can be written.
+
+.backwrap {
+ 
+  background-size: 100% 100%;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 0;
+}
+
+/* Shapes & Animation
+*/
+
+.back-shapes {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.back-shapes img {
+  opacity: 0.2;
+  position: absolute;
+  width: 1.5%;
+}
+
+.floating {
+  position: absolute;
+  animation-name: floating;
+  -webkit-animation-name: floating;
+  animation-duration: 5s;
+  -webkit-animation-duration: 5s;
+  animation-iteration-count: infinite;
+  -webkit-animation-iteration-count: infinite;
+
+  &.circle {
+    display: inline-block;
+    width: 39px;
+    height: 39px;
+    background-image: url('../../assets/images/portfolio/ico-1.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+      opacity: .1;
+  }
+
+    &.square {
+      display: inline-block;
+      width: 35px;
+      height: 35px;
+      background-image: url('../../assets/images/portfolio/ico-2.png');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center center;
+        opacity: .1;
+  }
+
+   &.triangle {
+      display: inline-block;
+      width: 35px;
+      height: 35px;
+     background-image: url('../../assets/images/portfolio/ico-3.png');
+      background-size: cover;
+     background-repeat: no-repeat;
+     background-position: center center;
+       opacity: .1;
+  }
+
+   &.cross {
+      display: inline-block;
+      width: 35px;
+      height: 35px;
+     background-image: url('../../assets/images/portfolio/ico-4.png');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center center;
+        opacity: .1;
+  }
+}
+
+@keyframes floating {
+  0% {
+      transform: translateY(0%) rotate(-55deg);
+  }
+  50% {
+      transform: translateY(300%) rotate(55deg);
+  }
+  100% {
+      transform: translateY(0%) rotate(-55deg);
+  }
+}
+
+@-webkit-keyframes floating {
+  0% {
+      -webkit-transform: translateY(0%);
+  }
+  50% {
+      -webkit-transform: translateY(300%);
+  }
+  100% {
+      -webkit-transform: translateY(0%);
+  }
+}
+.snip1252{
+  .fa-eye{
+    display: none;
+    position: absolute;
+    top: 0;
+  
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+
+  }
+}
+.snip1252.hover{
+  .fa-eye{
+    display: flex;   
+  } 
+}
+
+.fas.fa-eye{
+  color: #feb84f;
+} 

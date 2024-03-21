@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>AngularPortfolio</title>
+    <base href="/" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" type="image/x-icon" href="favicon.ico" />
+    <link href="//fonts.googleapis.com/css?family=Montserrat:thin,extra-light,light,100,200,300,400,500,600,700,800"
+        rel="stylesheet" type="text/css" />
+
+</head>
+
+<body>
+
+    <app-root></app-root>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script type="text/javascript"
+        src="https://res.cloudinary.com/veseylab/raw/upload/v1684982764/magicmouse-2.0.0.cdn.min.js"></script>
+    <script type="text/javascript">
+        options = {
+            "cursorOuter": "circle-basic",
+            "hoverEffect": "circle-move",
+            "hoverItemMove": false,
+            "defaultCursor": false,
+            "outerWidth": 30,
+            "outerHeight": 30
+        };
+        magicMouse(options);
+
+    </script>
+    <script>
+        $(document).ready(function () {
+            var imgsrc = " ";
+            i = 1;
+            $('.port-thumb a').each(function () {
+                imgsrc = $(this).find('img').attr('src');
+                $(this).append('<style> .pf' + i + ' .port-thumb a::after{background-image: url(' + imgsrc + ')}</style>');
+                i++;
+            });
+        });
+
+    </script>
+</body>
+
+</html>
