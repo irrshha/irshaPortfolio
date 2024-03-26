@@ -1287,7 +1287,7 @@
                             id: '2023-03',
                             title: 'Mohammed Bin Rashid Housing Establishment',
                             images: [
-                                '/irshaPortfolio/#/assets/images/portfolio/mbrhe-mock-1.jpg',
+                                '/irshaPortfolio/assets/images/portfolio/mbrhe-mock-1.jpg',
                             ]
                         },
                         {
@@ -1295,7 +1295,7 @@
                             title: 'Heritage Express',
                             link: 'https://heritageexpress.com/',
                             images: [
-                                '/irshaPortfolio/#/assets/images/portfolio/heritage-mock-1.jpg',
+                                '/irshaPortfolio/assets/images/portfolio/heritage-mock-1.jpg',
                             ]
                         },
                         {
@@ -1303,15 +1303,15 @@
                             title: 'Department Of Finance - Ajman Government',
                             link: 'https://opendata.ajmandof.ae/default.aspx?PageId=245&Year=2021',
                             images: [
-                                '/irshaPortfolio/#/assets/images/portfolio/ajman-mock-1.jpg',
-                                '/irshaPortfolio/#/assets/images/portfolio/ajman-mock-1.jpg',
+                                '/irshaPortfolio/assets/images/portfolio/ajman-mock-1.jpg',
+                                '/irshaPortfolio/assets/images/portfolio/ajman-mock-1.jpg',
                             ]
                         }, {
                             id: '2023-06',
                             title: 'Department Of Finance - Ajman Government',
                             link: 'https://opendata.ajmandof.ae/default.aspx?PageId=245&Year=2021',
                             images: [
-                                '/irshaPortfolio/#/assets/images/portfolio/kayaan-mock-1.jpg',
+                                '/irshaPortfolio/assets/images/portfolio/kayaan-mock-1.jpg',
                             ]
                         },
                     ];
