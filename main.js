@@ -1288,6 +1288,9 @@
                             title: 'Mohammed Bin Rashid Housing Establishment',
                             images: [
                                 '/irshaPortfolio/assets/images/portfolio/mbrhe-mock-1.jpg',
+								'/irshaPortfolio/assets/images/portfolio/ajman-mock-1.jpg',
+								 '/irshaPortfolio/assets/images/portfolio/kayaan-mock-1.jpg',
+								
                             ]
                         },
                         {
