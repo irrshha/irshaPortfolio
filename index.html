@@ -49,7 +49,9 @@
             navLinks.forEach(function (link) {
                 link.addEventListener('click', function (event) {
                     event.preventDefault(); // Prevent default link behavior
-                    window.location.reload(); // Reload the page
+                    setTimeout(function () {
+                        window.location.reload(); // Reload the page after a short delay
+                    }, 100);
                 });
             });
         });
