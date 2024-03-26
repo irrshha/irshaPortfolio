@@ -1206,7 +1206,7 @@
                     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](1, "p", 50);
                     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](2, "a", 42);
                     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](3, "button", 52);
-                    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](4, "View Modal");
+                    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](4, "View Project");
                     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
                     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
                     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();

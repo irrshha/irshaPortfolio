@@ -43,7 +43,15 @@
                 i++;
             });
         });
-
+        document.addEventListener('DOMContentLoaded', function () {
+            var navLinks = document.querySelectorAll('.main-nav a');
+            navLinks.forEach(function (link) {
+                link.addEventListener('click', function (event) {
+                    event.preventDefault(); // Prevent default link behavior
+                    window.location.reload(); // Reload the page
+                });
+            });
+        });
     </script>
     <script src="runtime.js" defer></script>
     <script src="polyfills.js" defer></script>
