@@ -43,7 +43,6 @@
                 i++;
             });
         });
-
         document.addEventListener('DOMContentLoaded', function () {
             var mainNavLinks = document.querySelectorAll('.main-nav a');
 
@@ -59,13 +58,12 @@
 
                     var targetUrl = link.getAttribute('data-link'); // Get the target URL from the clicked link
                     if (targetUrl) {
-                        setTimeout(function () {
-                            window.location.href = targetUrl; // Navigate to the target URL after a short delay
-                        }, 300); // Adjust the delay as needed
+                        window.location.href = targetUrl; // Navigate to the target URL
                     }
                 });
             });
         });
+
 
 
     </script>
