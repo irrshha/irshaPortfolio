@@ -20354,6 +20354,7 @@ body.compensate-for-scrollbar{overflow:hidden}.fancybox-active{height:auto}.fanc
 	margin-bottom:2em !important;
 }
 .aditional-skils{
-	display:none;
+	display:none !important;
 }
+
 }
