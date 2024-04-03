@@ -1271,7 +1271,7 @@ class PortfolioComponent {
                 ]
             },
             {
-                id: '2023-07',
+                id: '2023-09',
                 title: 'Sharjah Chamber of Commerce and Industry',
                 images: [
                     '/irshaPortfolio/assets/images/portfolio/sharja.png',
